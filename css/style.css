@@ -163,14 +163,16 @@ color: var(--accent-color);
 /* Сторінка Студія */
 /* Hero section */
 .hero {
+   padding-top: 200px;
+   padding-bottom: 200px;
+   
    text-align: center;
 
    background-color: var(--footer-backround-color);
 }
-
 .hero.container {
-      padding-top: 200px;
-      padding-bottom: 200px;
+   padding-top: 0;
+   padding-bottom: 0;
 }
 
 .hero-title {
@@ -256,9 +258,15 @@ color: var(--accent-color);
 }
 
 /*  What we do section  */
-.work.container {
+
+.work {
    padding-top: 94px;
    padding-bottom: 94px;
+}
+
+.work.container {
+   padding-top: 0;
+   padding-bottom: 0;
 }
 
 .work-title {
@@ -288,12 +296,15 @@ color: var(--accent-color);
 
 /* Our team section  */
    .team {
-            background-color: #F5F4FA;
+   padding-top: 94px;
+   padding-bottom: 94px;
+   
+   background-color: #F5F4FA;
 }
 
 .team.container {
-   padding-top: 94px;
-   padding-bottom: 94px;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
    .team-title {
@@ -351,17 +362,23 @@ color: var(--accent-color);
 
 /* Contact section */
 .page-footer {
+   padding-top: 64px;
+   padding-bottom: 64px;
+   
    background-color: var(--footer-backround-color);
 }
 
 .page-footer.container {
-   padding-top: 60px;
-   padding-bottom: 60px;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
 a.page-footer.logo {
    display: block;
    margin-bottom: 20px;
+
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
 .footer-contact-list {
@@ -395,7 +412,6 @@ margin-bottom: 9px;
 
 .page-header {
    border-bottom: 1px solid #ECECEC;
-   border
 } 
 
 .page-header.container {
@@ -404,6 +420,16 @@ margin-bottom: 9px;
 
 .portfolio-header {
    display: none;
+}
+
+.portfolio {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.portfolio.container {
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
 .filter-list {
@@ -455,7 +481,6 @@ margin-bottom: 9px;
 .portfolio-list {
    display: flex;
    flex-wrap: wrap;
-   margin-bottom: 34px; 
 }
 
 .portfolio-list-item {
