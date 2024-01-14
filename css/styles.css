@@ -212,8 +212,11 @@ address {
 }
 
 .hero__button {
+   display: block;
    min-width: 169px;
    padding: 15px 31px;
+   margin-right: auto;
+   margin-left: auto;
 
    
    background-color: #4D5AE5;
