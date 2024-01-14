@@ -188,6 +188,7 @@ address {
 .hero {
    padding-top: 188px;
    padding-bottom: 188px;
+   
    text-align: center;
 
    background-color: #2E2F42;
@@ -211,7 +212,7 @@ address {
 }
 
 .hero__button {
-   max-width: 169px;
+   min-width: 169px;
    padding: 15px 31px;
 
    
@@ -291,7 +292,7 @@ address {
 }
 
 .portfolio__item {
-   width: calc((100% - 48px * 2) / 3);
+   width: calc((100% - 48px) / 3);
    border: 1px solid #e7e9fc;
 }
 
