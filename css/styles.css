@@ -15,7 +15,7 @@
    }
    
    button {
-   font-family: inherit;
+      font-family: inherit;
    color: currentColor;
    background-color: transparent;
    cursor: pointer;
@@ -186,12 +186,16 @@ address {
 
 /* Hero section */
 .hero {
+   padding-top: 188px;
+   padding-bottom: 188px;
+   text-align: center;
+
    background-color: #2E2F42;
 }
 
 .hero .container {
-   padding-top: 188px;
-   padding-bottom: 188px;
+   padding-top: 0;
+   padding-bottom: 0;
 }
 
 .hero__title {
@@ -200,7 +204,6 @@ address {
    margin-left: auto;
    margin-bottom: 48px;
    color: #FFF;
-   text-align: center;
    font-size: 56px;
    font-weight: 700;
    line-height: 1.07;
@@ -208,18 +211,17 @@ address {
 }
 
 .hero__button {
-   display: block;
-   /* max-width: 169px; */
-   /* height: 56px; */
-   margin-right: auto;
-   margin-left: auto;
-   padding: 16px 32px;
+   max-width: 169px;
+   padding: 15px 31px;
+
+   
    background-color: #4D5AE5;
    color: #FFF;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.64px;
+      
    cursor: pointer;
 
    border: none;
@@ -276,9 +278,6 @@ address {
 
 
 /* Our Portfolio section */
-.portfolio .container {
-   border: 1px solid #e7e9fc
-}
 
 .portfolio .title {
    margin-bottom: 72px;
@@ -292,8 +291,8 @@ address {
 }
 
 .portfolio__item {
-   width: calc((100% - 24px * 2) / 3);
-   border: 1px solid #E7E9FC;
+   width: calc((100% - 48px * 2) / 3);
+   border: 1px solid #e7e9fc;
 }
 
 .portfolio .card__content {
@@ -308,10 +307,8 @@ address {
 /* Footer section */
 .footer {
    background-color: #2E2F42;
-}
-.footer .container {
-padding-top: 100px;
-padding-bottom: 100px;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 
 .footer .logo {
